@@ -1,0 +1,301 @@
+body{
+    background-image: url("https://cdn.vox-cdn.com/thumbor/sGjV3EJfO-Ok_swRKFWR8LX8yrE=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22055248/SFA_final.jpg");
+     color: black;
+     background-color: black;
+     font-family: "Press Start 2P", monospace;
+     font-size: 1rem;
+     text-align: left;
+     text-transform: uppercase;
+     margin: 0;
+     max-width: 100%;
+     height: auto;
+     width:100%;
+     background-size: cover;
+     
+   }
+   
+   body:before {
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     margin: auto;
+     background: repeating-linear-gradient(#0D122B, #0D122B 2px, #565B73 2px, #565B73 4px);
+     opacity: 0.2;
+     z-index: 100;
+     content: "";
+     pointer-events: none;
+   }
+     .grey-with-red {
+     color: rgb(192, 192, 192);
+     text-shadow: 2px 2px 0 rgb(192, 11, 11);
+   }
+   
+   .purple-with-blue {
+     color: rgb(147, 154, 255);
+     text-shadow: 2px 2px 0 rgb(47, 61, 255);
+   }
+   
+   .yellow-with-darkyellow {
+     color: rgb(226, 179, 24);
+     text-shadow: 0 2px 0 rgb(107, 77, 11),
+       2px 0 0 rgb(151, 109, 19),
+       2px 2px 0 rgb(151, 109, 19);
+   }
+     
+   .title-top {
+   background: -webkit-linear-gradient(rgb(255, 18, 18) 100%, rgb(255, 215, 38));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;;}
+   .p1{
+     background: -webkit-linear-gradient(rgb(255, 18, 18) 100%, rgb(255, 215, 38));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     margin: 0px 0px 0px -81px;
+     display: block;;
+     ;
+     
+   }
+   .estilo {
+       background: -webkit-linear-gradient(rgb(255, 18, 18) 100%, rgb(255, 215, 38));
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       padding: 12px 12px 12px 0;
+    display: block;;
+    text-align: left;
+     transform: skew() translateX(-2rem);font-family:Permanent Marker;
+     font-family: 'Raleway', sans-serif;
+   font-family: 'Rancho', cursive;
+     font-size:25px;
+   }
+   .p3 {
+       background: -webkit-linear-gradient(rgb(255, 18, 18) 100%, rgb(255, 215, 38));
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       margin-left: -403px;;
+   }
+   .p4 {
+       background: -webkit-linear-gradient(rgb(255, 18, 18) 100%, rgb(255, 215, 38));
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       margin-left: -543px;
+   }
+   .p5 {
+       background: -webkit-linear-gradient(rgb(255, 18, 18) 100%, rgb(255, 215, 38));
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       margin-left: -433px;;
+   }
+   
+     
+     h1{
+     text-align: center;
+     transform: skew(-10deg) translateX(-2rem);font-family: 'Raleway', sans-serif;
+   font-family: 'Rancho', cursive;
+       
+   }
+   p{
+     text-align: center;
+     transform: skew() translateX(-2rem);font-family:Permanent Marker;
+     font-family: 'Raleway', sans-serif;
+   font-family: 'Rancho', cursive;
+     font-size:25px;
+     
+     
+       
+     
+     }
+   div{
+     
+     transform: skew() translateX(-2rem);font-family:Permanent Marker;
+   
+       
+       
+     
+   }
+   input{
+     width: 50%;
+   }
+   .centro{
+     width:auto
+   }
+   .survey-form{
+     text-align: center
+   }
+   label {
+       
+       align-items: left;
+       font-size: 1.125rem;
+       margin-bottom: 0.5rem;
+       transform: skew translateX(-2rem);
+       font-family: Permanent Marker;
+       text-align: left;
+       color: rgb(226, 179, 24);
+       text-shadow: 0 2px 0 rgb(107 77 11), 2px 0 0 rgb(151 109 19), 2px 2px 0 rgb(151 109 19);
+       padding: 12px 12px 12px 0;
+       display: block;
+   }
+     
+    
+   
+   form {
+     width: 100;
+     margin: 0 auto;
+     display: block;
+   }
+   textarea{
+     display: block;
+       margin-left: auto;
+       margin-right: auto;
+     text-align: center;
+       width:50%;
+     justify-content: center;
+      resize: vertical;
+   }
+   /* 
+   -can be for 7 inch tablets
+   -This CSS will apply for devices with the minimum width of 480 pixels
+    */
+   @media only screen and (min-width: 480px) {
+        #mainHeader {
+             background-color:#EFEF34;
+        }
+        
+        nav ul li{
+             float:left;
+             width:25%;
+        }
+   }
+   /*
+   -10 inch tablets
+   -This CSS will apply for devices with the minimum width of 768 pixels
+   */
+   @media only screen and (min-width: 768px) {
+        #mainHeader {
+             background-color:#EDD49A;
+        }
+        
+        #mainSection{
+             float: left;
+             width: 61%;
+        }
+        
+        #sideBox1{
+             float: right;
+             width: 30%;
+        }
+        
+   }
+   /*
+   -Desktop computers
+   -This CSS will apply for devices with the minimum width of 1140 pixels
+   */
+   @media only screen and (min-width: 1140px) {
+        #mainHeader {
+             background-color:#CE9429;
+        }
+        
+        #responsiveLogo{
+             float:left;
+             width:30%;
+        }
+        
+        nav{
+             float:left;
+             width:70%;
+        }
+        
+        nav ul{
+             margin:1.5em 0 0 0;
+        }
+   }
+   .container {
+     width: 100%;
+     margin: 3.125rem auto 0 auto;}
+   
+     form {
+     background: var(--color-darkblue-alpha);
+     padding: 2.5rem 0.625rem;
+     border-radius: 0.25rem;
+   }
+   
+   .form-group {
+     margin: 0 auto 1.25rem auto;
+     padding: 0.25rem;
+   }
+   #dropdown{
+     margin-right: 700px;
+   }
+   body>background-image{
+     width:100%;
+   }
+   @media only screen and (min-width:320px) and (max-width:420px){
+     body{background-size: 100% 100%}
+     label{
+       margin-left: 0px;
+     }
+     input {
+       width: 50%;
+       margin: 0 0px 0px -1px;
+       padding: 1px 90px;
+     }
+   .p1 {
+       background: -webkit-linear-gradient(rgb(255, 18, 18) 100%, rgb(255, 215, 38));
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+     margin: 0px 0px 0px -6px;}
+   .title-top {
+       background: -webkit-linear-gradient(rgb(255, 18, 18) 100%, rgb(255, 215, 38));
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       margin-left: 62px;
+   }
+   .p2 {
+       background: -webkit-linear-gradient(rgb(255, 18, 18) 100%, rgb(255, 215, 38));
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       margin-left: -23px;
+   }
+     .p3 {
+       background: -webkit-linear-gradient(rgb(255, 18, 18) 100%, rgb(255, 215, 38));
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       margin-left: -3px;
+   }
+     .p4 {
+       background: -webkit-linear-gradient(rgb(255, 18, 18) 100%, rgb(255, 215, 38));
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       margin-left: -143px;
+   }
+     .p5 {
+       background: -webkit-linear-gradient(rgb(255, 18, 18) 100%, rgb(255, 215, 38));
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       margin-left: -43px;
+   }
+     textarea {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       text-align: center;
+       width: 50%;
+       justify-content: center;
+       resize: vertical;
+       padding: 10px 89px;
+   }
+   }
+   input, select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  .completo {
+    border-radius: 10px;
+
+    padding: 20px;
+  }

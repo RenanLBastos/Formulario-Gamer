@@ -221,7 +221,7 @@ body{
    }
    
    .form-group {
-     margin: 0 auto 
+     margin: 0 auto; 
      padding: 0.25rem;
    }
    #dropdown{

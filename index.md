@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,7 +15,7 @@
     <title>Formulário de pesquisa</title>
 
 
-<body>
+   <body>
       <h1 class="title-top" id="title">Formulário de pesquisa</h1>
       <p class="p1" id="description">Obrigado por responder o nosso formulario</p>
       <div class="completo">
@@ -42,19 +41,16 @@
 
    <div class="row">
             <div class="label3">
-
-   <label for="number" id="number-label">
+           <label for="number" id="number-label">
                 Idade<span> (opcional) </span></label>
             </div>
             <div class="inputIdade">
-<input id="number" type="number" min=18 max=100 required placeholder="idade">
+              <input id="number" type="number" min=18 max=100 required placeholder="idade">
             </div>
           </div>
-
-  <div class="row">
+          <div class="row">
             <div class="label4">
-
-   <label for="dropdown">
+              <label for="dropdown">
               </label>
               <div class="estilo"> seu estilo de jogo favorito?</div>
             </div>
@@ -72,27 +68,21 @@
                   Luta</option>
               </select>
             </div>
-
-<div>
+            <div>
               <p class="estilo">Você ja jogou algum desses jogos? </p>
               <label>
                 <input class="centro" id="lol" value="lol" type="radio" name="lol-cod-wow-kof-nda">
                 League of Legends</label>
-
- <label>
+              <label>
                 <input class="centro" id="cod" value="cod" type="radio" name="lol-cod-wow-kof-nda">
                 Call of Duty</label>
-
-
-  <label>
+              <label>
                 <input class="centro" id="wow" value="wow" type="radio" name="lol-cod-wow-kof-nda">
                 World of Warcraft</label>
-
-   <label>
+              <label>
                 <input class="centro" id="kof" value="kof" type="radio" name="lol-cod-wow-kof-nda">
                 The king of Fighters</label>
-
-<label>
+              <label>
                 <input class="centro" id="nda" value="nda" type="radio" name="lol-cod-wow-kof-nda">
                 Nenhum</label>
             </div>
@@ -102,8 +92,7 @@
               <label>
                 <input class="centro" id="pro" value="pro" type="checkbox" name="pro-noob-casual">
                 Pro Player</label>
-
- <label>
+              <label>
                 <input class="centro" id="noob" value="noob" type="checkbox" name="pro-noob-casual">
                 Noob</label>
               <label>
@@ -115,20 +104,8 @@
               <textarea id="comentarios" class="input-textarea" name="comment"
                 placeholder="Coloque seu cometario aqui..."></textarea>
             </div>
-
-  <div>
+            <div>
               <button class="yellow-with-darkyellow" type="submit" id="submit">
                 Enviar
               </button>
             </div>
-
-</form>
-
-
-
-
- </body>
-  </div>
-</main>
-
-</html>
